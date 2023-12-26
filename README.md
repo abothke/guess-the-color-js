@@ -25,3 +25,17 @@ Viel Spaß beim Spielen!
 4. You also have the option to use a joker, which removes a wrong answer.
 
 Enjoy playing!
+
+## Demo
+
+https://abothke.github.io/guess-the-color-js/
+
+# Hi, I'm Andre! 👋
+
+## 🚀 About me
+
+On the road to be a full stack developer...
+
+## Authors
+
+- [@abothke](https://www.github.com/abothke)
