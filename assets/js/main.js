@@ -53,7 +53,7 @@ updateSpan();
 
 // extrahieren der ersten 3 Ziffern, wenn nur 2 Ziffern vorhanden sind, wird eine 0 vorangestellt. Wenn nur eine Ziffer vorhanden ist, wird noch eine 0 vorangestellt. die Variabel r ist immer 3 Zeichen lang, da Zahlen unter 100 mit einem Leerzeichen aufgefüllt werden. Zahlen unter 10 werden mit 2 Leerzeichen aufgefüllt.
 
-heading.innerHTML = `Guess the Color 👉🏻 RGB ${randomContainerRGB}`;
+heading.innerHTML = `Guess the Color 👉🏻 RGB`;
 
 // Variablen für die Anzahl der richtigen und falschen Antworten.
 // Selektion des h2 Elements und setzen des Textes mit der Anzahl der richtigen und falschen Antworten.
@@ -88,7 +88,7 @@ const resetColors = () => {
   randomContainerRGB = document.querySelector(`#color${randomContainerNo}`)
     .style.background;
   heading = document.querySelector("h1");
-  heading.innerHTML = `Guess the Color 👉🏻 ${randomContainerRGB}`;
+  heading.innerHTML = `Guess the Color 👉🏻`;
   // Reset des Joker Counters auf 2. Ausgabe der Anzahl der verbleibenden Joker.
   jokerCounter = 2;
   document.querySelector("#jokerOutput").textContent = `Du hast noch 2 Joker`;
